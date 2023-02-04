@@ -1,7 +1,9 @@
 # fetch container template
 FROM node:16.15.1-bullseye
 
-ARG PORT=3000
+ARG HOST
+ARG PORT
+
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -19,7 +21,7 @@ COPY ./ ./
 RUN npm run build
 
 # expose ports
-EXPOSE 3000
+EXPOSE ${PORT}
 
 # run app
 CMD ["npm","run", "start:prod"]
