@@ -1,15 +1,15 @@
-const logotext = "JOHN";
+const logotext = "DAFO";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ing. David Franco",
+    description: "I’m David Franco... Electronic Engineer, Full stack developer!",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m David Franco",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Electronic Designer",
+        second: "Full stack developer",
+        third: "Robotics, AI, IoT, Aerospace!",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -37,24 +37,24 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "Javascript + Typescript",
         value: 80,
     },
     {
-        name: "React",
+        name: "NodeJs + ExpressJs (Backend)",
+        value: 85,
+    },
+    {
+        name: "SQL (Postgres, MariDB, MySQL)",
+        value: 80,
+    },
+    {
+        name: "ReactJs",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Android (Kotlin)",
+        value: 45,
     },
 ];
 
